@@ -142,6 +142,6 @@ for i in range(len(z.values())):
     bars = plt.bar(x[i], y[i], .35, align="edge", animated=0.4)
     for rect in bars:
         height = rect.get_height()
-        plt.text(rect.get_x(), height, '%d' % int(height), ha='center', va='bottom',fontsize='6')
+        plt.text(rect.get_x(), height, '%d' % int(height), ha='center', va='bottom',fontsize='5')
 
 plt.show()
